@@ -12,4 +12,3 @@ console.log('${a} times 9 equals ${a * 9}');
 console.log('${a} times 10 equals ${a * 10}');
  
 
-console.log()
