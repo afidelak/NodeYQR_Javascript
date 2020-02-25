@@ -1,8 +1,7 @@
-const number = 10;
-let numberTest = number/2;
+const number = 11;
 
-if (number == 1) {
+if (number % 2 == 0) {
     console.log(`${number} is an even number`);
 } else {
-    console.log(`${number} == odd number`);
+    console.log(`${number} is an odd number`);
 }
