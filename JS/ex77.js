@@ -1,7 +1,7 @@
 let number = 100;
 
-do { console.log(number,
-    number--);
+do { 
+    console.log(number--);
 } while (number >=0) {
   
 }

@@ -1,6 +1,6 @@
-let number = 0
+let number = 0;
 
-do { console.log(number, number+=2);    
-} while (number <=100 ) {
-  
-}
+do {
+  if (number%2 === 0) console.log(number);
+  number++;
+} while (number <= 100)

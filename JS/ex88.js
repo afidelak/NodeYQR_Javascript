@@ -1,2 +1,9 @@
-for (let number = 0; number <=100; number +=2);{ 
-    console.log(number, number+=2)};    
+    /* let number = 0;
+do {
+  if (number%2 === 0) console.log(number);
+  number++;
+} while (number <= 100) */
+
+for (let n = 0; n <= 0; n++) {
+    if (n % 2 === 0) console.log(n);
+  }

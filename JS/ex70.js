@@ -1,8 +1,12 @@
 let number = 0
-let sum = 0
+let total = 0
 
 while (number<=1000){
     if (number % 2 !== 0);
-    sum = sum + number
+    total = total + number;
+    console.log(total);
+    
+    number ++;
 }
 
+console.log ('Total is ' + total);
